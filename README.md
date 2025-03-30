@@ -1,4 +1,5 @@
-# video automation by Olav Hardang
+# Video Automation by Olav Hardang
+
 A fully automated playout system for television based on CasparCG for video playout and CG.
 
 A fully automted playout system witht the following functinality:
