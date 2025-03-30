@@ -7,10 +7,10 @@ import uuid
 
 # Database connection information
 db_config = {
-    'host': 'localhost',
-    'user': 'c4frikanalen',
-    'password': 'olavH2610!',
-    'database': 'c4frikanalen_sendeplan'
+    'host': '',
+    'user': '',
+    'password': '',
+    'database': ''
 }
 
 # Connect to the database

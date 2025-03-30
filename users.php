@@ -7,10 +7,10 @@ $eier_session = $_SESSION['admin'];
 if($eier_session == "1") {
 
     // DB connection info
-    $servername = "localhost";
-    $username = "c4frikanalen";
-    $password = "olavH2610!";
-    $dbname = "c4frikanalen_sendeplan";
+    $servername = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
