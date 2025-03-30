@@ -1,3 +1,5 @@
+# Created by Olav Hardang #
+
 from datetime import datetime, timedelta
 import datetime
 import mysql.connector
