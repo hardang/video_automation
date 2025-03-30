@@ -1,0 +1,483 @@
+body {
+   background-color: #000;
+   background: linear-gradient(110deg, rgba(0, 0, 0, .9) 60%, rgba(15, 15, 15, .8) 65%);
+}
+
+H1 { 
+  font-size: 30px;
+  color: #fff;
+  margin: 50px 0 0 130px;
+}
+
+H2 { 
+  font-size: 28px;
+  color: #fff;
+}
+
+H3 { 
+  font-size: 24px;
+  color: #fff;
+  margin: 0 0 0 30px;
+}
+
+H4 { 
+  font-size: 20px;
+  color: #ccc;
+  margin: 25px 0 0 30px;
+}
+
+H5 { 
+  font-size: 17px;
+  color: #fff;
+}
+
+H6 { 
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+p, tr, th, td, table{
+  font-size: 14px;
+  color: #fff;
+}
+
+.frame_info
+{
+  position: relative;
+  height:50px;
+  background-color: #000;
+  border: 1px solid #767676;
+  margin: 20px;
+  padding: 20px;
+  width: 660px;
+  border-radius: 10px; /* Adds rounded corners with a 10px radius */
+}
+
+.text_info{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 16px;
+  color: #fff;
+  width: 660px;
+  text-align: center;
+}
+
+.spilletid_ramme {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+.spilletid {
+  font-size: 26px;
+  color: #fff;
+}
+
+.italic{
+  font-style: italic;
+}
+
+H1, H2, H3, H4, H5, H6, p, ol, li, tr, th, td, table, ul, li, a:link, a:visited, a:hover, a:active{
+  font-family: courier;
+}
+
+table{
+  background-color: #1c1c1c;
+}
+
+td{
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(56,56,56,1) 45%, rgba(56,56,56,1) 58%, rgba(0,0,0,0) 100%);
+padding: 2px 20px;
+}
+
+tr {
+margin: 0px;
+}
+
+tr, table{
+  border: 0px solid #fff;
+  text-align: left;
+}
+
+th, td{
+  border: 0px solid #fff;
+  text-align: left;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden; /* Clearfix hack to contain floats */
+}
+
+.column1 {
+    width: 684px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px solid #ccc;
+    margin: 0 0 0 30px;
+}
+
+.column2 {
+    width: 540px;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0px solid #ccc;
+}
+
+.column3l {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0px solid #ccc;
+}
+
+.column_right {
+    width: 640px;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0px solid #ccc;
+}
+
+.column_center {
+    width: 684px;
+    height: 400px;
+    float: center;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px solid #ccc;
+    margin: 0 0 0 30px;
+}
+
+.ramme {
+    width: 330px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+}
+
+label {
+   color: white;
+}
+
+.frame_video
+{
+  background-color: transparent;
+  border: 0px solid black;
+  margin: 20px 20px 20px 50px;
+  padding: 0px;
+}
+
+video {
+   margin: 0;
+   box-shadow: 0px 0px 15px 10px lightblue;
+   border: 0px solid black;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=date], input[type=number], input[type=datetime-local] {
+  width: 220px;
+  padding: 7px;
+  margin: 4px 2px 4px 2px;
+  border: 1px solid #e7e7e7;
+  background-color:#000;
+  border-bottom: 1px solid #eee; // add only bottom border
+  box-shadow:0 0 15px 4px rgba(255,255,255,0.06);
+  border-radius:10px;
+  color:#fff;
+}
+
+input[type=button], input[type=submit], input[type=reset], button {
+/*  width: 100px;*/
+  text-decoration: none;
+  margin: 10px 2px 4px 2px;
+  cursor: pointer;
+
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* usual styles */
+  padding: 5px 20px;
+  border: 1px solid #e7e7e7;
+  background-color:#000;
+  color:#fff;
+  font-weight:600;
+/*  box-shadow:0 0 15px 4px rgba(255,255,255,0.7);*/
+  border-radius:10px;
+  font-size: 14px;
+}
+
+/* Apply styles to readonly input fields */
+input[readonly] {
+    /* Your styles here */
+    background-color: #000; /* Example background color */
+    color: #fff; /* Example text color */
+    border: 1px solid #ccc; /* Example border */
+    /* Add any other styles you want */
+}
+
+/* Apply styles to readonly textarea fields */
+textarea[readonly] {
+    /* Your styles here */
+    background-color: #000; /* Example background color */
+    color: #fff; /* Example text color */
+    border: 1px solid #ccc; /* Example border */
+    /* Add any other styles you want */
+}
+
+.selection {
+    overflow:hidden;
+    margin-left: 0px;
+    background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px;
+    /* dropdown_arrow.png is a 31x28 image */
+  border-radius:10px;
+  font-size: 14px;
+  font-weight:600;
+  padding: 5px 20px;
+}
+
+select {
+  border: 1px solid #e7e7e7;
+  background-color:#000;
+    -webkit-appearance: none;
+  border-radius:10px;
+  font-size: 14px;
+  font-weight:600;
+  padding: 5px 20px;
+  color: #fff;
+}
+
+.box {
+  margin: 0 0 0 10px;
+  padding: 0px;
+}
+
+a:link, a:visited
+{
+ text-decoration: none;
+ color: #ccc;
+}
+
+a:hover, a:active
+{
+ text-decoration: none;
+ color: #000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(56,56,56,1) 45%, rgba(56,56,56,1) 58%, rgba(0,0,0,0) 100%);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(208,208,208,1) 45%, rgba(208,208,208,1) 58%, rgba(255,255,255,0) 100%);
+color: #000;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(231,231,231,1) 5%, rgba(231,231,231,1) 95%, rgba(255,255,255,0) 100%);
+color: #000;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #f1f1f1;
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(56,56,56,1) 45%, rgba(56,56,56,1) 58%, rgba(0,0,0,0) 100%);
+
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.set_center {
+  text-align: center;
+}
+
+.farge0 {
+  background-color: red;
+}
+
+.farge1 {
+  background-color: blue;
+}
+
+
+
+.search_box {
+  position: absolute; /* Positions the box */
+  top: 70px;
+  right: 50px;
+  width: 240px; /* Box width */
+  border: 1px solid #ccc; /* Border around the box */
+  background-color: #000; /* Light grey background color */
+  padding: 10px; /* Adds space inside the box */
+  text-align: right; /* Aligns content inside the box to the right */
+}
+
+.resett_button {
+  position: absolute; /* Positions the box */
+  bottom: 0;
+  left: 0;
+  padding: 10px; /* Adds space inside the box */
+  text-align: left; /* Aligns content inside the box to the right */
+}
+
+.other_users_list
+{
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  width: 240px; /* Box width */
+  border: 1px solid #ccc; /* Border around the box */
+  background-color: #000; /* Light grey background color */
+  padding: 10px; /* Adds space inside the box */
+  text-align: right;
+}
+
+.count_from_database
+{
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+}
+
+
+/* Styles for smaller screens, like phones */
+@media (max-width: 1068px) { /* Adjusts when screen width <= 768px */
+
+.search_box {
+  position: relative; /* Positions the box */
+  top: 0px;
+  left: 50px;
+  border: 1px solid #ccc; /* Border around the box */
+  background-color: #000; /* Light grey background color */
+  padding: 5px; /* Adds space inside the box */
+  text-align: right; /* Aligns content inside the box to the right */
+}
+.other_users_list
+{
+  position: relative;
+  top: 0px;
+  left: 50px;
+  border: 1px solid #ccc; /* Border around the box */
+  background-color: #000; /* Light grey background color */
+  padding: 5px; /* Adds space inside the box */
+  margin:10px 10px 10px 0;
+  text-align: right;
+}
+
+}
+
+@media (max-width: 700px) { /* Even smaller screens, like older phones */
+
+.frame_video
+{
+  background-color: transparent;
+  border: 0px solid black;
+  margin: 5px 0;
+  padding: 0;
+}
+
+video {
+  margin: 0;
+  box-shadow: 0px 0px 10px lightblue;
+  border: 0px solid black;
+  width: 100%; /* Responsive width */
+  height: auto; /* Maintain proportions */
+  aspect-ratio: 16 / 9; /* Standard widescreen ratio */
+  display: block; /* Remove extra spacing */
+}
+
+.count_from_database
+{
+    left: 5px;
+    width: 100%; /* Increase width on smaller screens */
+    padding: 5px 0; /* Slightly reduce padding */
+    font-size: 12px; /* Reduce font size */
+}
+
+.frame_info
+{
+  position: relative;
+  height:50px;
+  background-color: #000;
+  border: 1px solid #767676;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border-radius: 5px; /* Adds rounded corners with a 10px radius */
+}
+
+.text_info{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.spilletid_ramme {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 14px;
+  color: #fff;
+}
+
+}
