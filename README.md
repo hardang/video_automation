@@ -11,3 +11,6 @@ A fully automted playout system witht the following functinality:
 
 Based on MariaDB database and apache with PHP support.
 Automation runs using Python.
+
+Known bugs.
+After login, a refresh is needed as the user credentials are not auto refreshed.
